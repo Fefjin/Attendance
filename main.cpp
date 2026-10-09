@@ -85,25 +85,25 @@ struct StudentLog {
   Student roster.
 */
 StudentLog students[] = {
-  {"Aaliyaha", 0, Name1, 0, "NA", "NA"},
-  {"Delizha", 1, Name2, 0, "NA", "NA"},
-  {"Ocenath", 2, Name3, 0, "NA", "NA"},
-  {"Kesha", 3, Name4, 0, "NA", "NA"},
-  {"Rashwan", 4, Name5, 0, "NA", "NA"},
-  {"Aniyah", 5, Name6, 0, "NA", "NA"},
-  {"Charles", 6, Name7, 0, "NA", "NA"},
-  {"Trinity", 7, Name8, 0, "NA", "NA"},
-  {"Rian", 8, Name9, 0, "NA", "NA"},
-  {"Angella", 9, Name10, 0, "NA", "NA"},
-  {"Mercy", 10, Name11, 0, "NA", "NA"},
-  {"Bruce", 11, Name12, 0, "NA", "NA"},
-  {"Gabrialle", 12, Name13, 0, "NA", "NA"},
-  {"Inez", 13, Name14, 0, "NA", "NA"},
-  {"Kenneth", 14, Name15, 0, "NA", "NA"},
-  {"Jeremy", 15, Name16, 0, "NA", "NA"},
-  {"Noemi", 16, Name17, 0, "NA", "NA"},
-  {"Devenchie", 17, Name18, 0, "NA", "NA"},
-  {"Armani", 18, Name19, 0, "NA", "NA"}
+  {"name", 0, Name1, 0, "NA", "NA"},
+  {"name", 1, Name2, 0, "NA", "NA"},
+  {"name", 2, Name3, 0, "NA", "NA"},
+  {"name", 3, Name4, 0, "NA", "NA"},
+  {"name", 4, Name5, 0, "NA", "NA"},
+  {"name", 5, Name6, 0, "NA", "NA"},
+  {"name", 6, Name7, 0, "NA", "NA"},
+  {"name", 7, Name8, 0, "NA", "NA"},
+  {"name", 8, Name9, 0, "NA", "NA"},
+  {"name", 9, Name10, 0, "NA", "NA"},
+  {"name", 10, Name11, 0, "NA", "NA"},
+  {"name", 11, Name12, 0, "NA", "NA"},
+  {"Gname", 12, Name13, 0, "NA", "NA"},
+  {"name", 13, Name14, 0, "NA", "NA"},
+  {"name", 14, Name15, 0, "NA", "NA"},
+  {"name", 15, Name16, 0, "NA", "NA"},
+  {"name", 16, Name17, 0, "NA", "NA"},
+  {"name", 17, Name18, 0, "NA", "NA"},
+  {"name", 18, Name19, 0, "NA", "NA"}
 };
 
 const int studentCount = sizeof(students) / sizeof(students[0]);
@@ -113,9 +113,9 @@ const int studentCount = sizeof(students) / sizeof(students[0]);
 */
 void Connect2SSID() {
   wifi.startATMode();
-  wifi.setWifiMode("STA");
-  wifi.setWSSSID("Pixel1");
-  wifi.setSTAKey("WPA2PSK", "AES", "12345678");
+  wifi.setWifiMode("");
+  wifi.setWSSSID("");
+  wifi.setSTAKey("WPA2PSK", "AES", "");
   wifi.reset();
   wifi.endATMode();
 }
