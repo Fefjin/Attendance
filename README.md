@@ -139,5 +139,5 @@ Number,Name,In Time,Out Time,Status
 
 Built as part of an internship project.
 
-- **Author:** _Your name_
-- **Date:** _Month Year_
+- **Author:** Fefjin
+
